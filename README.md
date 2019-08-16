@@ -1,2 +1,3 @@
-# 133A-EXE-Nombre-mystere
-Exercice du nombre mystère
+# Exercice "Nombre mystère"
+
+![jeu nombre mystere](_src/jeu nombre mystere.png)
