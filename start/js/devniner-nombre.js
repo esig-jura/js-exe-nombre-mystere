@@ -5,11 +5,6 @@
 * @since   2018-09-09 (date de création)
 */
 
-//http://www.jslint.com/help.html
-/*jslint this:true */
-/*jslint es6, browser, devel, for, single, multivar*/
-/*global window, document, alert, performance */
-
 //Main IIFE (Immediately-Invoked Function Expression, se prononce "iffy")
 (function main() {
     "use strict";
