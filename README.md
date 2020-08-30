@@ -6,4 +6,4 @@ Pour ce faire, récupérer le contenu du dossier `📁start` et modifier le code
 
 Bonne chance 🍀
 
-![jeu nombre mystere](./src/jeu-nombre-mystere.png)
+![jeu nombre mystere](img/jeu-nombre-mystere.png)
