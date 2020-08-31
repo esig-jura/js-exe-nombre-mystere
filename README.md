@@ -3,7 +3,7 @@
 Votre objectif, créer un petit jeu demandant au visiteur de deviner un nombre
  entre 1 et 100 🙇‍️.
 
-Pour ce faire, modifier le code du fichier `📁js/devniner-nombre.js` tout en respectant l'algorithme ci-après.
+Pour ce faire, modifier le code du fichier `📁js/deviner-nombre.js` tout en respectant l'algorithme ci-après.
 
 Bonne chance 🍀
 
