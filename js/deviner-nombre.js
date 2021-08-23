@@ -8,7 +8,6 @@
 //Main IIFE (Immediately-Invoked Function Expression, se prononce "iffy")
 (function main() {
     "use strict";
-
     /**
      * Retourne un nombre entier aléatoire compris entre min et max
      * @param min
@@ -19,7 +18,21 @@
         return Math.floor(Math.random() * (max - min) + min);
     }
 
-    let nbMystere = tireNombre(1, 100);
+
+    // Constantes d'application
+    const NB_MIN = 1;
+    const NB_MAX = 100;
+
+    // Récupération des éléments HTML à manipuler
+    const strongNbMax = document.getElementById('nbMax');
+    const strongNbMin = document.getElementById('nbMin');
+    const formulaire = document.querySelector('form');
+    const txtNombre = document.getElementById('nombre');
+    const ulHistorique = document.getElementById('historique');
+
+
+
+    let nbMystere = tireNombre(NB_MIN, NB_MAX);
     console.log(nbMystere);
     let nbEssais = 0;
     let reponse = null;
