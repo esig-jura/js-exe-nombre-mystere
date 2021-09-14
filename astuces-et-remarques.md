@@ -2,17 +2,9 @@
 * Utiliser les accents graves et `${variable}` pour les chaines avec variables.
 * Utiliser une variable `message` pour les textes à afficher à l'utilisateur
 * Déclarer les fonctions avant leur appel.
+* Transformer les nombres directement à la récupération avec `parseInt()` ou `parseFolat()`
 ---
-Éviter de rechercher des éléments HTML avec `getElementById` à chaque appel
-de la fonction `miseAJour`.
-Rechercher les éléments du formulaire 1x au démarrage du programme,
-puis uniquement récupérer leur nouvelle valeur dans `miseAJour`.
-
----
-Transformer les nombres directement à la récupération avec `parseInt()` ou `parseFolat()`
-
----
-Ne pas retrouner une alert !
+Ne pas retourner une alert !
 
 Afficher `alert` et ensuite `return`.
 
