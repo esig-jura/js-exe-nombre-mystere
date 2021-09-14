@@ -1,3 +1,8 @@
+* Pour les chaines de caractères utiliser les ' à la place de "
+* Utiliser les accents graves et `${variable}` pour les chaines avec variables.
+* Utiliser une variable `message` pour les textes à afficher à l'utilisateur
+* Déclarer les fonctions avant leur appel.
+---
 Éviter de rechercher des éléments HTML avec `getElementById` à chaque appel
 de la fonction `miseAJour`.
 Rechercher les éléments du formulaire 1x au démarrage du programme,
