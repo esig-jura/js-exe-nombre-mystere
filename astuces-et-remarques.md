@@ -3,6 +3,7 @@
 * Utiliser une variable `message` pour les textes à afficher à l'utilisateur
 * Déclarer les fonctions avant leur appel.
 * Transformer les nombres directement à la récupération avec `parseInt()` ou `parseFolat()`
+* Nom des constantes de valeur en **majuscule**.
 ---
 Ne pas retourner une alert !
 
