@@ -7,7 +7,7 @@
 
 //Main IIFE (Immediately-Invoked Function Expression, se prononce "iffy")
 (function main() {
-    "use strict";
+    'use strict';
 
     /**
      * Retourne un nombre entier aléatoire compris entre min et max
@@ -33,13 +33,13 @@
         // Comptabilise l'essai
         nbEssais += 1;
 
-        // Définit le message a afficher au prochain tour
+        // Définit le message à afficher au prochain tour
         if (reponse > nbMystere) {
-            message = "C'est moins";
+            message = 'C\'est moins';
         } else {
-            message = "C'est plus";
+            message = 'C\'est plus';
         }
     } while (reponse !== nbMystere);
 
-    alert("Bravo, tu as gagné en " + nbEssais + " coups !");
+    alert('Bravo, tu as gagné en ' + nbEssais + ' coups !');
 }()); //main IIFE
