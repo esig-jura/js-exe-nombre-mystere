@@ -14,7 +14,6 @@ body {
 
 h1, h2 {
     color: #2ecc71;
-    text-align: center;
 }
 
 
@@ -33,10 +32,14 @@ a:hover {
     color: darkmagenta;
 }
 
+header {
+    text-align: center;
+}
 main {
     padding: 40px;
     max-width: 820px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Formulaires */
