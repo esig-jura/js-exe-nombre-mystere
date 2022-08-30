@@ -1,9 +1,10 @@
+* Remplacer `@author` avec votre nom et prénom
 * Pour les chaines de caractères utiliser les ' à la place de "
 * Utiliser les accents graves et `${variable}` pour les chaines avec variables.
 * Utiliser une variable `message` pour les textes à afficher à l'utilisateur
 * Déclarer les fonctions avant leur appel.
-* Transformer les nombres directement à la récupération avec `parseInt()` ou `parseFolat()`
-* Nom des constantes de valeur en **majuscule**.
+* Transformer les nombres directement à la récupération avec `Number()` ou `parseInt()` ou `parseFolat()` ou 
+* * Nom des constantes de valeur en **majuscule**.
 ---
 Ne pas retourner une alert !
 
