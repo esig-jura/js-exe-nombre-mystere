@@ -1,4 +1,5 @@
 * Remplacer `@author` avec votre nom et prénom
+* * Créer des constantes pour min et max
 * Pour les chaines de caractères utiliser les ' à la place de "
 * Utiliser les accents graves et `${variable}` pour les chaines avec variables.
 * Utiliser une variable `message` pour les textes à afficher à l'utilisateur
