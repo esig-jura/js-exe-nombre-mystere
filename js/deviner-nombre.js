@@ -76,7 +76,7 @@
             ulHistorique.innerHTML += `<li>C'est plus que <strong>${reponse}</strong> !</li>`;
         } else {
             ulHistorique.innerHTML +=
-                `<li>
+                `<li class="succes">
                     <div>C'est bien <strong>${reponse} !</strong></div>
                     <div>
                         Bravo, tu as gagné en 

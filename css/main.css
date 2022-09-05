@@ -24,12 +24,12 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: #2ecc71;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #27ae60;
 }
 
 header {
@@ -52,7 +52,7 @@ input {
 }
 
 button {
-    color: white;
+    color: #ecf0f1;
     padding: .5em 1em;
     background-color: #e74c3c;
     border: none;
@@ -66,4 +66,20 @@ button:hover  {
 }
 
 /* Historique */
-#historique
+#historique {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#historique li {
+    padding: 6px;
+    margin: 6px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+#historique li.succes {
+    background-color: #27ae60;
+    color: #ecf0f1;
+}
