@@ -59,6 +59,10 @@
         // Si l'utilisateur n'a pas entré un nombre valide
         if (isNaN(reponse)) {
             alert('Entrez un nombre valide !');
+            // Vide le champ du formulaire
+            txtNombre.value = '';
+            // Donne le focus au champ du formulaire
+            txtNombre.focus();
             return; // On s'arrête ici
         }
 
