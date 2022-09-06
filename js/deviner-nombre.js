@@ -19,11 +19,16 @@
         return Math.floor(Math.random() * (max - min) + min);
     }
 
-    let nbMystere = tireNombre(1, 100);
+    // Constantes
+    const MIN = 1;
+    const MAX = 100;
+
+    // Variables
+    let nbMystere = tireNombre(MIN, MAX);
     console.log(nbMystere);
     let nbEssais = 0;
     let reponse = null;
-    let message = 'Le nombre à deviner est compris entre 1 et 100.';
+    let message = `Le nombre à deviner est compris entre ${MIN} et ${MAX}.`;
 
     // Tant que la réponse est différente du nombre mystère
     do {
@@ -35,11 +40,11 @@
 
         // Définit le message à afficher au prochain tour
         if (reponse > nbMystere) {
-            message = 'C\'est moins';
+            message = 'C\'est moins !';
         } else {
-            message = 'C\'est plus';
+            message = 'C\'est plus !';
         }
     } while (reponse !== nbMystere);
 
-    alert('Bravo, tu as gagné en ' + nbEssais + ' coups !');
+    alert(`Bravo, tu as gagné en ${nbEssais} coups !`);
 }()); //main IIFE
