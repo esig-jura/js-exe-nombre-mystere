@@ -11,8 +11,8 @@
 
     /**
      * Retourne un nombre entier aléatoire compris entre min et max
-     * @param min
-     * @param max
+     * @param {number} min
+     * @param {number} max
      * @returns {number}
      */
     function tireNombre(min, max) {
@@ -27,7 +27,7 @@
 
     // Tant que la réponse est différente du nombre mystère
     do {
-        // Récupère la réponse et la converti en entier
+        // Récupère la réponse et converti en entier
         reponse = parseInt(prompt(message));
 
         // Comptabilise l'essai
