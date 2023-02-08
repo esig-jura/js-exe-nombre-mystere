@@ -6,6 +6,7 @@
 * Déclarer les fonctions avant leur appel.
 * Transformer les nombres directement à la récupération avec `Number()` ou `parseInt()` ou `parseFolat()` ou 
 * * Nom des constantes de valeur en **majuscule**.
+* Attention jamais plus de 2 lignes vides à la suite
 ---
 Ne pas retourner une alert !
 
