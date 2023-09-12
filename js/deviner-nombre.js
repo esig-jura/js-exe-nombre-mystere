@@ -6,17 +6,18 @@
 */
 
 // Main IIFE (Immediately-Invoked Function Expression, se prononce "iffy")
-(function main() {
-    "use strict";
 
-    /**
-     * Retourne un nombre entier aléatoire compris entre min et max
-     * @param min
-     * @param max
-     * @returns {number}
-     */
-    function tireNombre(min, max) {
-        return Math.floor(Math.random() * (max - min) + min);
-    }
+'use strict';
 
-}()); // main IIFE
+/**
+ * Retourne un nombre entier aléatoire compris entre min et max
+ * @param min
+ * @param max
+ * @returns {number}
+ */
+function tireNombre(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+console.log(tireNombre(1, 100));
+
